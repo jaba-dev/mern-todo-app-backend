@@ -8,7 +8,11 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://mern-todo-app.onrender.com"],
+    origin: [
+      "http://localhost:3000",
+      "http://mern-todo-app.onrender.com",
+      "http://mern-todo-app-backend-wstm.onrender.com",
+    ],
   })
 );
 
