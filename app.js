@@ -12,6 +12,7 @@ app.use(
       "http://localhost:3000",
       "http://mern-todo-app.onrender.com",
       "http://mern-todo-app-backend-wstm.onrender.com",
+      "https://mern-todo-app-2x5j.onrender.com",
     ],
   })
 );
